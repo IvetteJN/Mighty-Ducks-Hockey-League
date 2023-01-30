@@ -33,7 +33,7 @@ h2{
 .logo{
     position: absolute;
     left: 30px;
-    top: 300px;
+    top: 350px;
 }
 
 nav a{
@@ -47,7 +47,8 @@ nav a{
     text-align: center;
     color: white;
     background-color: rgba(42, 42, 208);
-    box-shadow: 5px;
+    box-shadow: 6px 6px grey;
+    font-weight: bold;
 }
 
 .active {
@@ -65,6 +66,7 @@ nav a{
     margin: 20px 20px 20px 20px;
     display: inline-block;
     position: absolute;
+    left: 200px;
 }
 
 section{
