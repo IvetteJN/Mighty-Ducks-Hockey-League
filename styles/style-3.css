@@ -10,8 +10,36 @@ body{
     margin: 10px;
 }
 
-.headerimage{
-    position: relative;
+header{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid rgb(31, 30, 31);
+    border-radius: 5px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    color: white;
+    background-color: rgb(62, 42, 217);
+    box-shadow: 6px 6px rgb(53, 39, 39);
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+}
+
+footer{
+    display: flex;
+}
+
+
+/*.headerimage{
     margin-top: 40px;
     width: 100%;
     height: 200px;
@@ -44,21 +72,7 @@ h2{
     border-radius: 2px;
 }
 
-nav a{
-    display: block;
-    padding: 10px;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid rgb(31, 30, 31);
-    border-radius: 5px;
-    height: 40px;
-    width: 150px;
-    text-align: center;
-    color: white;
-    background-color: rgb(62, 42, 217);
-    box-shadow: 6px 6px rgb(53, 39, 39);
-    font-weight: bold;
-}
+
 
 a:hover{
     color: black;
